@@ -1,6 +1,6 @@
 "显示行号(否：nonumber)
 set number
-"华顺
+"缩进
 set sw=2
 set ts=2
 set softtabstop=2
@@ -70,3 +70,5 @@ nmap <silent> <C-up> <C-W><up>
 imap <silent> <C-down> <esc><C-W><down>
 vmap <silent> <C-down> <esc><C-W><down>
 nmap <silent> <C-down> <C-W><down>
+"映射jj到esc
+inoremap jj <ESC>
